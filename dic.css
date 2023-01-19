@@ -1,0 +1,704 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(2, 2, 20, 0.4), rgb(2, 2, 20, 0.1)), url(img/hotel9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 33rem;
+    background-repeat: no-repeat;
+}
+body img {
+    height: auto;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar img {
+    width: 2.6rem;
+    padding: 2.188rem 0.5rem 2.188rem 3rem;
+    height: 3.675rem;
+    cursor: pointer;
+}
+
+.navEle {
+    display: flex;
+    padding: 2.75rem 3.125rem 0.75rem 1.0627rem;
+}
+
+.navEle ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0rem 0.5rem;
+    font-size: 1.125rem;
+}
+
+.navEle ul li a {
+    font-family: IntervalNextReg, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 7px;
+}
+
+.navEle ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.btn {
+    width: 11.625rem;
+    height: 2.5rem;
+    font-weight: 600;
+    border-radius: 0.625rem;
+    color: white;
+    background-color: rgb(248, 112, 82);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: #80b5c5;
+    background-color: white;
+}
+
+.button {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.p {
+    color: white;
+    padding-top: 1.25rem;
+    font-size: 1.875rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.rigth-nav {
+    padding: 1.188rem 2.438rem 2.313rem 19.375rem;
+    display: flex;
+    font-size: 1.125rem;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.btn2 {
+    font-size: 0.89rem;
+    width: 5rem;
+    height: 2.125rem;
+    color: black;
+    font-weight: 600;
+    padding-right: 0.438rem;
+    border-radius: 0.625rem;
+    background-color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bbtn {
+    padding-left: 11px;
+}
+
+.rigth-nav a {
+    text-decoration: none;
+    padding-top: 6px;
+    color: white;
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.p2 {
+    padding-left: 2.48rem;
+    color: white;
+    padding-top: 54px;
+    font-size: 4.275rem;
+    width: 51rem;
+}
+
+.mid p {
+
+    margin-block-start: 0.2rem;
+    margin-block-end: 2.2rem;
+    text-shadow: rgb(0 0 0 / 50%) 0px 2px 4px;
+    font-weight: 600;
+}
+
+.q {
+    display: flex;
+    padding-left: 2.3rem;
+}
+
+#inbox {
+    border-radius: 30px;
+    height: 50px;
+    width: 42rem;
+    font-size: 1.2rem;
+    color: #857b7b;
+    padding-left: 0.92rem;
+    border: none;
+}
+
+.btn6 {
+    padding-left: 12px;
+}
+
+.btn3 {
+    border-radius: 1.875rem;
+    width: 6.063rem;
+    height: 50px;
+    border-color: #777c81;
+    color: #fffefd;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.188rem;
+    background-color: rgb(241 90 57);
+}
+
+.img img {
+    width: 12rem;
+    height: 19rem;
+    border-radius: 0.813rem;
+}
+
+.img {
+    display: flex;
+    padding-left: 2.71rem;
+}
+
+.im {
+    padding-left: 50px;
+}
+
+.Explore h3 {
+    font-size: 2.6rem;
+    color: #18191a;
+    margin-block-start: 1em;
+    padding-left: 77px;
+    margin-block-end: 0.1em;
+    font-family: IntervalNextReg, sans-serif;
+
+}
+
+.im {
+    padding-left: 2.25rem;
+}
+
+.Explore p {
+    font-family: IntervalNextReg, sans-serif;
+    color: #525456;
+    padding-left: -3.1870000000000003rem;
+}
+
+.Explore h4 {
+    color: rgb(77 81 84);
+    padding-left: 5rem;
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.im h2 {
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.im p {
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.uni {
+
+    background-color: rgba(34, 66, 81, 0.03);
+}
+
+.hedding p {
+    font-family: IntervalNextReg, sans-serif;
+    font-size: 1.425rem;
+    line-height: 1.625rem;
+    color: rgb(100, 122, 133);
+    margin-bottom: 36px;
+}
+
+.hedding h3 {
+    padding-left: 77px;
+    font-size: 2.5rem;
+    font-family: IntervalNextReg, sans-serif;
+    font-size: 2.125rem;
+    font-weight: 500;
+    line-height: 2.375rem;
+    margin-bottom: 0.75rem;
+    color: rgb(34, 66, 81);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section {
+    padding: 0px 0 76px 113px;
+}
+
+.section h1 {
+    line-height: 1.625rem;
+    color: rgb(34, 66, 81);
+    padding-top: 22px;
+    font-size: 1.125rem !important;
+    margin-bottom: 0.75rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section1 {
+    font-family: IntervalNextReg, sans-serif;
+    display: flex;
+    width: 71rem;
+}
+
+.section2 {
+    font-family: IntervalNextReg, sans-serif;
+    display: flex;
+    width: 71rem;
+}
+
+.no {
+    font-family: IntervalNextReg, sans-serif;
+    height: 9rem;
+    width: 28rem;
+    padding-top: 39px;
+    padding: 0px 0px 102px 0px;
+    line-height: 24px;
+}
+
+.section p {
+    font-family: IntervalNextReg, sans-serif;
+    width: 21rem;
+    color: #7c7c7c;
+    color: rgb(100, 122, 133);
+    font-size: 1rem !important;
+    line-height: 1.5625rem;
+}
+
+.section h1 {
+    font-family: IntervalNextReg, sans-serif;
+    color: #3a3b3e;
+}
+
+.section h3 {
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.this {
+    padding-left: 5rem;
+    font-size: 1.4rem;
+}
+
+.hedding {
+    padding-top: 8px;
+    padding-left: 31px;
+}
+
+#img6 {
+    width: 36px;
+    height: 39px;
+}
+
+.hotel img {
+    width: 15rem;
+    height: 16rem;
+    border-radius: 8px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.hotel {
+    display: flex;
+    padding: 22px 97px;
+}
+
+.go {
+    width: 15rem;
+    height: 16rem;
+    padding-left: 46px;
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.live h2 {
+    font-size: 35px;
+    font-family: IntervalNextReg, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 44px;
+}
+
+.live p {
+    font-family: IntervalNextReg, sans-serif;
+    font-size: 1.3rem;
+}
+
+.Explore {
+    padding: 20px;
+    height: 110vh;
+}
+
+.live {
+    padding-left: 144px;
+}
+
+.hotel p {
+    color: #303634;
+}
+
+.b {
+    display: flex;
+}
+
+.btnb {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 116px;
+    padding-left: 20px;
+    height: 30px;
+    width: 182px;
+    height: 36px;
+    font-size: 16px;
+    border-block-color: initial;
+    border-color: #c6cfcf;
+    width: 182px;
+    text-align: left;
+    background-color: #fdfffe;
+    height: 36px;
+}
+
+.live2 {
+    height: 113vh;
+}
+
+.hedding {
+    padding-top: 52px;
+}
+
+#img6 {
+    width: 36px;
+    height: 39px;
+}
+
+.hotel2 img {
+    width: 13rem;
+    height: 15rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.no {
+    padding-top: 27px;
+}
+
+
+.hotel2 {
+    display: flex;
+    padding: 22px 97px;
+}
+
+.hotel2 p {
+    color: #303634;
+}
+
+.go2 {
+    width: 14rem;
+    height: 16rem;
+    padding-left: 34px;
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.live h2 {
+    font-size: 35px;
+    font-family: IntervalNextReg, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 44px;
+}
+
+.live p {
+    font-family: IntervalNextReg, sans-serif;
+    font-size: 1.3rem;
+}
+
+.live {
+    padding-left: 144px;
+}
+
+.b {
+    display: flex;
+}
+
+.btnb {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 116px;
+    padding-left: 20px;
+    height: 30px;
+    width: 182px;
+    height: 36px;
+    font-size: 16px;
+    border-block-color: initial;
+    border-color: #c6cfcf;
+    width: 182px;
+    text-align: left;
+    background-color: #fdfffe;
+    height: 36px;
+}
+
+.uni {
+    padding-left: 20px;
+}
+
+.live {
+    padding-left: 119px;
+}
+
+.last {
+    background-color: #f0f0f1;
+    height: 64vh;
+    padding: 51px 119px;
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.match {
+    height: 114vh;
+}
+
+.box {
+    display: flex;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.boxbox {
+    width: 241px;
+}
+
+.box h2 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: IntervalNextMed;
+    font-size: 1.155rem;
+    font-weight: 700;
+    color: rgb(34, 66, 81);
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom p {
+    font-family: IntervalNextReg;
+    font-size: 0.875rem;
+    color: rgb(100, 122, 133);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box p {
+    font-family: IntervalNextReg;
+    font-size: 0.875rem;
+    color: rgb(100, 122, 133);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.side p {
+    padding-left: 758px;
+    cursor: pointer;
+}
+
+.tg {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgb(188, 198, 202);
+}
+
+.tg img {
+    height: 31px;
+    width: 33px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 32px;
+    width: 36px;
+}
+
+.d22 {
+    align-items: center;
+    display: flex;
+    background-color: rgb(248, 112, 82);
+    padding: 30px;
+    border-radius: 12px;
+    width: 64rem;
+    font-family: IntervalNextReg, sans-serif;
+    gap: 30px;
+    height: 10rem;
+    color: white;
+}
+
+.d23 {
+    padding: 0px 0px 30px 134px;
+}
+
+.d66 {
+    display: block;
+    padding-top: 3px;
+    width: 259px;
+    height: 180px;
+    font-family: IntervalNextReg;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    color: rgb(248, 112, 82);
+    padding-left: 20px;
+    border-radius: 12px;
+}
+
+.d66 h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 24px;
+    width: 223px;
+    margin-bottom: 24px;
+}
+
+.d33 {
+    width: 198px;
+}
+
+.xicon {
+    height: 186px;
+    width: 162px;
+}
+
+.d66 h3 {
+    font-size: 17px;
+}
+
+.bn {
+    padding: 47px 0px 20px 137px;
+}
+
+.bn h1 {
+    font-family: IntervalNextMed;
+    font-size: 2.125rem;
+    line-height: 2.375rem;
+    margin-bottom: 0.75rem;
+    color: rgb(34, 66, 81);
+}
+
+.bn p {
+    line-height: 1.5;
+    font-size: 1.125rem;
+    color: rgb(100, 122, 133);
+}
+
+.bn a {
+    display: block;
+    font-family: IntervalNextMed;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgb(0, 173, 239);
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.ph {
+    display: flex;
+    gap: 25px;
+    width: 68rem;
+    padding: 0px 40px 91px 134px;
+}
+
+.ph2 {
+    width: 28rem;
+    height: 20rem;
+    border-radius: 6px;
+}
+.io{
+    padding: 150px 0px 0px 21px;
+}
+.ph3 {
+    width: 18rem;
+    border-radius: 6px;
+}
+
+.ph4 {
+    width: 18rem;
+    border-radius: 6px;
+}
+.io2 h1{
+    font-family: sans-serif;
+    font-size: 2.125rem;
+    padding-left: 130px;
+    line-height: 2.375rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 40px;
+}
+.ph5 {
+    width: 18rem;
+    border-radius: 6px;
+}
+.ph h3{
+    font-size: 1.125rem !important;
+    color: rgb(255, 255, 255);
+}
+.ph p{
+    font-family: IntervalNextMed;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 18px !important;
+    color: rgb(255, 255, 255);
+}
+.ph2 {
+    background-image: url(./img/b.webp);
+    background-size: cover;
+}
+
+.ph3 {
+    background-image: url(./img/c.webp);
+    background-size: cover;
+
+}
+
+.ph4 {
+    background-image: url(./img/dd.webp);
+    background-size: cover;
+
+}
+
+.ph5 {
+    background-image: url(./img/e.webp);
+    background-size: cover;
+
+}

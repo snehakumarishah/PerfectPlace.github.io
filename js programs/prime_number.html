@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>prime number</title>
+</head>
+
+<body>
+    <script>
+        function PrimeNum(num) {
+            if (num <= 1) {
+                confirm("invailid number." + "\t" + "Enter any positive number.");
+
+            } else if ((num == 2) || (num == 3)) {
+                confirm(num + " is a prime number.")
+            } else {
+                for (var i = 2; i < num; i++) {
+                    if (num % i == 0) {
+                        confirm(num + " is not a prime number.")
+                    }
+                }
+
+            } return confirm(num + " is  a prime number.");
+        }
+        var num = prompt("Enter any positive number.");
+        PrimeNum(num);
+    </script>
+
+</body>
+
+</html>

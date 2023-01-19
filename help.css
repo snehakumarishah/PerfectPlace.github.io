@@ -1,0 +1,513 @@
+.help {
+    background: url(./img/blurr.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 42rem;
+}
+
+* {
+    margin: 0;
+}
+
+.logo2 {
+    display: flex;
+    color: white;
+    padding: 32px 57px;
+}
+
+.logo2 img {
+    height: 66px;
+    width: 53px;
+}
+
+.logo2 h2 {
+    padding: 7px 14px;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.navbar2 {
+    display: flex;
+    padding: 0;
+}
+
+.side2 {
+    color: white;
+    padding: 40px 0px 0 751px;
+}
+
+.side2 p {
+    font-size: 17px;
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.dropdown button {
+    font-weight: bold;
+    font-size: 17px;
+    height: 40px;
+    width: 109px;
+    border: 1px solid #0000ffb5;
+    padding: 4px 22px;
+    border-radius: 6px;
+    background-color: white;
+    color: #000;
+    transition: 1s;
+}
+
+.dropdown div a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+
+.dropdown div {
+    background-color: #fff;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: 100%;
+    border-radius: 9px;
+    opacity: 0;
+    transition: 2s;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    padding: 5px 0px 0px 10px;
+}
+
+.dropdown:hover div {
+    visibility: visible;
+    opacity: 1;
+}
+
+.side2 p {
+    font-size: 0.75rem;
+}
+
+.rt {
+    color: white;
+    padding: 7.375rem 2.375rem 0px 19.563rem;
+}
+
+.rt h2 {
+    padding-left: 18.375rem;
+    font-size: 1.875rem;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 50%);
+    font-weight: bold;
+}
+
+.rt h1 {
+    font-size: 3.75rem;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 50%);
+}
+
+.btn2x {
+    padding: 46px 0 0 262px;
+}
+
+#search {
+    padding: 17px;
+    width: 762px;
+    border: none;
+    height: 48px;
+    border-radius: 31px;
+    font-size: 20px;
+}
+
+.btnt {
+    height: 48px;
+    width: 87px;
+    border: none;
+    background-color: rgb(0, 173, 239);
+    border-radius: 31px;
+    transition: 1s;
+}
+
+.btnt:hover {
+    background-color: #00abefe0;
+}
+
+.i {
+    width: 67px;
+    height: 19px;
+}
+
+.d {
+    display: flex;
+}
+
+.d2 {
+    width: 56rem;
+    padding: 21px 0 0 53px;
+}
+
+.c {
+    width: 53rem;
+    background-color: #00adef;
+    color: white;
+    height: 2.7rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.m2 {
+    width: 28rem;
+}
+
+.n2 {
+    padding-top: 19px;
+}
+
+.n2 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.mn {
+    display: flex;
+    font-size: 0.75rem;
+}
+
+.m {
+    width: 28rem;
+}
+
+.d4 {
+    padding-left: 62px;
+    padding-top: 22px;
+}
+
+.d4 p {
+    padding-left: 25px;
+}
+
+.mn h3 {
+    color: #0e0e0ed9;
+    padding-top: 30px;
+}
+
+.mn a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.d3 a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 0.75rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dd .nv{
+display: flex;
+padding: 10px;
+}
+.dd img{
+    width: 47px;
+    height: 59px;
+}
+.dd .logo{
+    display: flex;
+    padding-left: 47px;
+}
+.dd .logo h2{
+    padding: 8px 7px;
+    font-size: 1.875rem;
+    cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(8, 8, 8);
+}
+.nv-list a{
+    padding-left: 18px;
+    text-decoration: none;
+    color: #697983;
+    font-family: IntervalNextReg,sans-serif;
+}
+.r-n a{
+    text-decoration: none;
+    font-family: IntervalNextReg,sans-serif;
+    font-size: .875rem;
+}
+.r-n{
+    display: flex;
+    padding: 15px 3px 1px 291px;
+}
+.dd2{
+    background: linear-gradient(rgba(0,0,0,0), rgb(0,0,0,0.7)),url(./img/dd.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 42rem;
+}
+.dd .btn2{
+    border: none;
+    background-color: #00adef;
+    color: #fff;
+    height: 38px;
+    border-radius: 4px;
+    padding: 0 24px;
+}
+.ddd{
+    padding: 78px 0 103px 123px;
+    background-color: #f7f7f7;
+}
+.r-n2{
+    padding: 9px 10px 1px 4px;
+}
+.nv-list{padding: 25px 3px 1px 98px;}
+.dd2 h2{
+    font-family: IntervalNextLi,sans-serif;
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    text-align: left;
+    font-size: 4rem;
+    letter-spacing: 0;
+    color: #fff;
+    text-shadow: 0 0 6px rgb(0 0 0 / 20%);
+}
+.dd2 h3{
+    font-family: IntervalNextMed,sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+    text-align: left;
+    letter-spacing: 0;
+    color: #fff;
+    text-shadow: 0 0 6px rgb(0 0 0 / 20%);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 100%; 
+}
+.dd-2{
+    padding: 300px 0 0 60px;
+}
+.dd-3 p{
+    font-family: IntervalNextBook,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #224251;
+}
+
+.ddd2{
+    display: flex;
+}
+.ddd3{height: 167px;
+    width: 80%;
+    padding: 90px 0 0;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+    margin-bottom: 20px;
+}
+.ddd h2{
+    font-family: IntervalNextBold,sans-serif;
+    font-size: 1.5rem;
+    color: #224251;
+    margin-bottom: 10px;
+}
+.ddd p{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #224251;
+    width: 30rem;
+}
+.dd-3 h2{
+    font-family: IntervalNextBold,sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.4;
+    color: #323439;
+}
+.dd-box3{
+    display: flex;
+    padding: 50px 0 75px 90px;
+}
+.dd-box2 h2{
+    font-family: IntervalNextBold,sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.4;
+    color: #323439;
+}
+.dd-box3 h3{
+    font-family: IntervalNextBold,sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.4;
+    color: #00adef;
+}
+.dd-box3 h4{
+    font-family: IntervalNextBold,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #224251;
+    margin-bottom: 16px;
+}
+.dd-box3 p{
+    font-family: IntervalNextBook,sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    color: #224251;
+}
+.dd-box4{
+    padding: 48px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    height: 191px;
+}
+.dd-box2{
+    padding: 102px 0 0 132px;
+}
+.dd-box5{
+    padding-left: 40px;padding-left: 40px;
+    width: 22rem;
+}
+.boxx-2{
+    display: flex;
+}
+.dd-boxx{
+    padding: 115px 100px 115px 135px;
+    background-color: #02243C;
+    border-radius: 8px;
+    width: 57rem;
+}
+.boxx-3 h3{
+    font-family: IntervalNextBook,sans-serif;
+    font-size: 2.9rem;
+    line-height: 1.2;
+    color: white;
+}
+.boxx-3 h2{
+    font-family: IntervalNextBook,sans-serif;
+    font-size: 3.7rem;
+    line-height: 1.2;
+    color: white;
+}
+.boxx-4 p{
+    font-family: IntervalNextBook,sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    padding-left: 88px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.icon2{
+    height: 80px;
+    width: 70px;
+    padding-bottom: 30px;
+}
+.dd-bx{
+    width: 65rem;
+    padding-left: 128px;
+    padding-bottom: 90px;
+    padding-top: 41px;
+}
+.dx .ddd{
+    background-color: white;
+}
+.dd-3 h2{
+    color: #323439;
+    font-size: 2.25rem;
+    line-height: 1.4;
+}
+.ddd2 h2{
+    position: relative;
+    display: block;
+    width: 100%;
+    font-family: IntervalNextReg,sans-serif;
+    font-size: 1.25rem;
+    color: #224251;
+    backface-visibility: hidden;
+    padding-right: 0px;
+    line-height: 1.4;
+}
+.ddd2 p{
+    color: #545d69;
+    font-size: 17px;
+    width: 32rem;
+}
+.last{
+    background-color: #f7f7f7;
+    height: 52vh;
+    padding:51px 0 0 119px;
+    font-family: IntervalNextReg, sans-serif;
+}
+.match{
+    height: 114vh;
+}
+.box{
+    display: flex;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+.boxbox{width: 241px;}
+.box h2{
+    padding-bottom: 15px;
+    padding-top: 45px;
+    font-family: IntervalNextMed;
+    font-size: 1.155rem;
+    font-weight: 700;
+    color: rgb(34, 66, 81);
+    cursor: pointer;
+}
+.bottom{
+    padding-bottom: 30px;
+    display: flex;
+    padding-top: 17px;
+}
+.bottom p{font-family: IntervalNextReg;
+    font-size: 0.875rem;
+    color: rgb(100, 122, 133);
+    padding-top: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.box p{
+    font-family: IntervalNextReg;
+    font-size: 0.875rem;
+    color: rgb(100, 122, 133);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.side p{
+    padding-left: 758px;
+    cursor: pointer;
+}
+.dd-bx.tg{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgb(188, 198, 202);
+}
+.tg img{
+    height: 31px;
+    width: 33px;
+    cursor: pointer;
+}
+.icon{
+    height: 32px;
+    width: 36px;
+}
+    

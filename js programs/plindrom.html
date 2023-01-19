@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>palindrom</title>
+</head>
+
+<body>
+    <script>
+        function palindrom(str) {
+            var str2 = "";
+            for (i = 0; i < srt.length; i++) {
+                var ch = str.charAt(i);
+                str2 = ch + str2;
+            }
+            return str2;
+        }
+        var strt="";
+         strt = prompt("Enter any string value.");
+        var str2 = palindrom(strt);
+        document.write(strt+"   "+str2);
+        if (str3 == str2) {
+            confirm(str + " is a palindrom.");
+        } else {
+            confirm(str + " is not a palindrom.");
+        }
+    </script>
+</body>
+
+</html>

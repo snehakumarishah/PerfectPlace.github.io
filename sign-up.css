@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.sign {
+    background: url(img/signimg.png) no-repeat;
+    height: 564px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up {
+    width: 393px;
+    height: 550px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.sign-box {
+    padding-left: 40rem;
+}
+
+form {
+    font-family: sans-serif;
+    padding: 7px 42px;
+}
+
+h1 {
+    font-weight: bold;
+    padding: 20px 61px 10px 130px;
+}
+
+h4 {
+    padding-bottom: 19px;
+    padding-left: 69px;
+}
+
+p {
+    text-align: center;
+}
+
+.sign-box input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 29px;
+    color: #fff;
+    font-size: 16;
+}
+
+.sign-box input[type="text"],
+input[type="password"],
+input[type="email"]:hover {
+    color: #c8cacd;
+}
+
+.sign-box input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.sign-box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    transition: 1s;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.sign-box input[type="button"]:hover {
+    background: #ffc107;
+    color: #40443d;
+}
+
+.img {
+    padding-top: 10px;
+    width: 84.3rem;
+    height: 30rem;
+}
+
+.rigth-nav {
+    padding-top: 0.8rem;
+    padding-left: 64rem;
+    display: flex;
+    font-size: 1.125rem;
+}
+
+.bbtn {
+    padding-left: 11px;
+}
+
+.rigth-nav a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 6px;
+    color: #0F730C !important;
+    color: black;
+    font-family: IntervalNextReg, sans-serif;
+}
+
+.btn2 {
+    font-size: 1rem;
+    width: 7rem;
+    height: 2.2rem;
+    border-color: #1A8917 !important;
+    color: #0F730C !important;
+    padding-right: 0.438rem;
+    border-radius: 3.625rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    padding-bottom: 28px;
+    padding-left: 148px;
+    padding-top: 38px;
+}
+
+.line p {
+    padding-left: 12px;
+    font-size: 15px;
+}
+
+.i {
+    height: 16px;
+    width: 16px;
+}
+
+.i2 {
+    height: 20px;
+    width: 20px;
+}
+
+.i3 {
+    height: 22px;
+    width: 22px;
+}
+
+.i4 {
+    height: 26px;
+    width: 26px;
+}
+
+.btn3 {
+    font-size: 1rem;
+    width: 6rem;
+    height: 1.6rem;
+    border-color: #1A8917 !important;
+    color: #0F730C !important;
+    padding-right: 0.438rem;
+    border-radius: 3.625rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lines {
+    padding-left: 199px;
+}
+
+.hr {
+    width: 63rem;
+    padding-bottom: 58px;
+    padding-left: 154px;
+}
+
+.h2 {
+    line-height: 1.3 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    letter-spacing: 0 !important;
+    padding-left: 344px;
+    color: rgba(0, 0, 0, .54) !important;
+    fill: rgba(0, 0, 0, .54) !important;
+    max-width: 700px !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+}
+
+.btnn {
+    padding-left: 625px;
+}
+
+.btn5 {
+    width: 149px;
+    height: 32px;
+    border-radius: 28px;
+    color: #414c48;
+    border: 1px solid #746a6a;
+}
+
+.ert {
+    display: flex;
+    padding: 74px 109px;
+
+}
+
+.ert2 {
+    padding-left: 40px;
+}
+
+.ert2 img {
+    height: 18rem;
+    border: 1px solid rgb(6 6 6 / 15%) !important;
+    cursor: pointer;
+    width: 32rem;
+}
+
+.ert2 img {
+    padding-left: 38px;
+    padding: 1px 4px;
+    object-fit: cover;
+    font-size: 23px;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    letter-spacing: 0 !important;
+    line-height: 1.1 !important;
+    cursor: pointer;
+}
+
+.ert2 h5 {
+    color: #4d5454;
+    font-size: medium;
+}
+
+.ert h2 {
+    padding: 12px;
+    font-size: 27px;
+}
+
+.logo img {
+    width: 52px;
+    height: 52px;
+    border-radius: 51px;
+
+}
+
+.logo {
+    display: flex;
+    padding-top: 23px;
+}
+
+.logo h2 {
+    color: #40443d;
+    padding: 3px;
+    padding-left: 17px;
+    font-size: 20px;
+}
+
+.ert2 h3 {
+    padding: 15px 0px;
+}
+
+.ert2 h3 {
+    padding: 15px 0px;
+}
+
+.ert3 {
+    padding-left: 17px;
+}
+
+.ert3 p {
+    font-weight: 500 !important;
+    font-size: 15px;
+    text-align: center;
+}
+
+.ert-2 {
+    display: flex;
+    padding: 53px 78px;
+
+}
+
+.ert--2 {
+    padding-left: 61px;
+    width: 20rem;
+}
+
+.ert--2 img {
+    height: 14rem;
+    border: 1px solid rgb(6 6 6 / 15%) !important;
+    cursor: pointer;
+    width: 22rem;
+}
+
+.ert--2 img {
+    padding-left: 38px;
+    padding: 1px 4px;
+    object-fit: cover;
+    font-size: 23px;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    letter-spacing: 0 !important;
+    line-height: 1.1 !important;
+    cursor: pointer;
+}
+
+.ert--2 h5 {
+    color: #4d5454;
+    font-size: medium;
+}
+
+.ert h2 {
+    padding: 12px;
+    font-size: 27px;
+}
+
+.logo img {
+    width: 52px;
+    height: 52px;
+    border-radius: 51px;
+
+}
+
+.logo {
+    display: flex;
+    padding-top: 23px;
+}
+
+.logo h2 {
+    color: #40443d;
+    padding: 3px;
+    padding-left: 17px;
+    font-size: 18px;
+}
+
+.ert--2 h3 {
+    padding: 15px 0px;
+}
+
+.ert--2 h3 {
+    padding: 15px 0px;
+}
+
+.ert3 {
+    padding-left: 17px;
+}
+
+.ert3 p {
+    font-weight: 500 !important;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hrr {
+    padding: 20px 140px;
+}
+
+.l {
+    display: flex;
+    color: rgba(0, 0, 0, .54);
+    background: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 35px !important;
+    text-align: right;
+    padding-left: 622px;
+    margin-left: 15px !important;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+}
